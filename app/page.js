@@ -7,19 +7,26 @@ export default function Home() {
   return (
     <div className="min-h-screen w-full bg-gray-100 text-gray-900 flex flex-col">
       <header className="bg-blue-500 text-white p-4 w-full"> 
-        <h1 className="text-3xl font-bold text-left m-2">Půjčovna kol</h1>
+        <h1 className="text-4xl font-bold text-left m-2">Nakolo.pokus</h1>
+        <ul className="menu menu-horizontal bg-blue-900 w-full sm:flex-row justify-between items-stretch">
+          <li className="flex-1"><Link href="/" className="flex justify-center items-center h-full w-full">Domů</Link></li>
+          <li className="flex-1"><Link href="/trebonsko" className="flex justify-center items-center h-full w-full">Třeboňsko</Link></li>
+          <li className="flex-1"><Link href="/trasy" className="flex justify-center items-center h-full w-full">Trasy</Link></li>
+          <li className="flex-1"><Link href="/kola" className="flex justify-center items-center h-full w-full">Půjčovna kol</Link></li>
+          <li className="flex-1"><Link href="/kontakty" className="flex justify-center items-center h-full w-full">Kontakty</Link></li>
+          </ul>
       </header>
       <div className='flex-grow p-4 bg-white shadow-lg rounded-lg flex flex-col items-start gap-4 sm:flex-row'>
         <main className="flex-grow p-4 bg-white shadow-lg rounded-lg flex flex-col md:flex-row items-start gap-4 sm:flex-row-reverse">
-          <div className='md:w-2/3 '>
-            <h2 className='text-2xl font-bold'>Vše o cykloturistice na Třeboňsku</h2>
+          <div className='md:w-2/3'>
+              <h2 className='text-2xl font-bold flex-1'>Vše o cykloturistice na Třeboňsku</h2>
               <p className='text-gray-600'>
               Tyto stránky jsou věnovány všem příznivcům cyklistiky, zvláště pak cykloturistům 
               a milovníkům krásné přírody v krajině třeboňských rybníků. Najdete zde informace 
               o možnostech ubytování, oblíbené cyklistické trasy a mnoho dalších rad a doporučení.
               </p>
           </div>
-          <div className='md:w-1/3 '>
+          <div className='md:w-1/3'>
             <img src='https://www.itrebon.cz/images/preview/1613562853.jpg' alt='Cykloturistika' className='w-full mt-4 rounded-lg shadow-lg'/>
           </div>
         </main>
