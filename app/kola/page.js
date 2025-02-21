@@ -16,8 +16,8 @@ export default function kola() {
           <li className="flex-1"><Link href="/kontakty" className="flex justify-center items-center h-full w-full">Kontakty</Link></li>
           </ul>
       </header>
-    <div className='flex-grow bg-white shadow-lg rounded-lg flex flex-col items-start gap-4 sm:flex-row'>
-      <main className="flex-grow bg-white shadow-lg rounded-lg flex flex-col sm:w-3/4">
+    <div className='flex-grow bg-white shadow-lg rounded-lg flex flex-col items-start gap-2 sm:flex-row'>
+      <main className="flex-grow bg-white shadow-lg rounded-lg flex flex-col sm:w-7/10">
 <div className="carousel w-full ">
   <div id="slide1" className="carousel-item relative w-full">
     <img
@@ -105,7 +105,7 @@ export default function kola() {
   </table>
 </div>
       </main>
-      <aside className='sm:w-1/4'>
+      <aside className='sm:w-3/10'>
       <div className="card bg-blue-800 text-primary-content w-96 mt-2">
             <div className="card-body">
               <h2 className="card-title">Doporučujeme</h2>

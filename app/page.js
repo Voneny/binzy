@@ -17,9 +17,9 @@ export default function Home() {
           <li className="flex-1"><Link href="/kontakty" className="flex justify-center items-center h-full w-full">Kontakty</Link></li>
           </ul>
       </header>
-      <div className='flex-grow p-4 bg-white shadow-lg rounded-lg flex flex-col items-start gap-4 sm:flex-row'>
-        <main className="flex-grow p-4 bg-white shadow-lg rounded-lg flex flex-col md:flex-row items-start gap-4 sm:flex-row-reverse">
-          <div className='md:w-2/3'>
+      <div className='flex-grow p-4 bg-white shadow-lg rounded-lg flex flex-col items-start gap-2 sm:flex-row'>
+        <main className="flex-grow p-4 bg-white shadow-lg rounded-lg flex flex-col sm:flex-row items-center justify-between gap-2 sm:w 2/3 h-full">
+          <div className='sm:w-1/2'>
               <h2 className='text-2xl font-bold flex-1'>Vše o cykloturistice na Třeboňsku</h2>
               <p className='text-gray-600 '>
               Tyto stránky jsou věnovány všem příznivcům cyklistiky, zvláště pak cykloturistům 
@@ -27,17 +27,17 @@ export default function Home() {
               o možnostech ubytování, oblíbené cyklistické trasy a mnoho dalších rad a doporučení.
               </p>
           </div>
-            <div className='md:w-1/3'>
+            <div className='sm:w-1/3'>
             <img src='https://www.itrebon.cz/images/preview/1613562853.jpg' alt='Cykloturistika' className='w-full mt-4 rounded-lg shadow-lg'/>
           </div>
         </main>
-        <aside className='sm:w-1/4'>
+        <aside className='sm:w-1/2'>
           <div className="card bg-blue-800 text-primary-content w-96 mt-2">
             <div className="card-body">
                 <h2 className="card-title">Doporučujeme</h2>
                 <p>Na kole okolo Třeboně: z Chlumu u Třeboně přes obec Kosky, po hrázi rybníků Nový a Starý Kanclíř do Lutové, okolo Mokřin přes Stříbřec a Stříbřecký most po hrázích rybníků Stolec, Vyšehrad, Nový a Starý Vdovec do Staré Hliny, ze Staré do Nové a okolo Obecního mlýna do Třeboně, v Třeboni z hráze rybníka Svět k Opatovickému rybníku, dále ke Zlaté stoce a přes Barboru a Majdalenu zpět do Chlumu.</p>
               <div className="card-actions justify-end">
-                <button className="btn">Více...</button>
+              <Link href="/trasy"><button className="btn">Více...</button></Link>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function Home() {
                 <br/> •   Dětské vozíky
                 <br/> •   Dětské sedačky (pouze se zapůjčeným kolem)</p>
               <div className="card-actions justify-end">
-                <button className="btn">Více...</button>
+                <Link href="/kola"><button className="btn">Více...</button></Link>
               </div>
             </div>
           </div>
