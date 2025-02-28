@@ -89,7 +89,8 @@ export default function kola() {
   <div id="slide4" className="carousel-item relative w-full">
     <img
       src="http://www.nakolo.cz/imagebank/177522134/800/800/leader_fox_vivalo.jpg"
-      className="w-full" />
+      className="w-full"
+      crossOrigin='anonymous'/>
     <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
       <a href="#slide3" className="btn btn-circle">❮</a>
       <a href="#slide1" className="btn btn-circle">❯</a>
