@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
     return (
       <footer className="bg-blue-500 text-white p-6">
@@ -9,7 +11,7 @@ export default function Footer() {
           <nav className="flex space-x-4">
             <a href="#" className="hover:underline">O nás</a>
             <a href="#" className="hover:underline">Podmínky</a>
-            <a href="#" className="hover:underline">Kontakt</a>
+            <Link href="/kontakty" className="hover:underline">Kontakt</Link>
           </nav>
         </div>
       </footer>

@@ -8,7 +8,7 @@ export default function Card() {
             <h2 className="card-title">Doporučujeme</h2>
             <p>Na kole okolo Třeboně: z Chlumu u Třeboně přes obec Kosky, po hrázi rybníků Nový a Starý Kanclíř do Lutové, okolo Mokřin přes Stříbřec a Stříbřecký most po hrázích rybníků Stolec, Vyšehrad, Nový a Starý Vdovec do Staré Hliny, ze Staré do Nové a okolo Obecního mlýna do Třeboně, v Třeboni z hráze rybníka Svět k Opatovickému rybníku, dále ke Zlaté stoce a přes Barboru a Majdalenu zpět do Chlumu.</p>
             <div className="card-actions justify-end">
-              <Link href="/trasy"><button className="btn text-white">Více...</button></Link>
+              <Link href="/trasy"><button className="btn text-white bg-black">Více...</button></Link>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@ export default function Card() {
               <br /> •   Dětské vozíky
               <br /> •   Dětské sedačky (pouze se zapůjčeným kolem)</p>
             <div className="card-actions justify-end">
-              <Link href="/kola"><button className="btn text-white">Více...</button></Link>
+              <Link href="/kola"><button className="btn text-white bg-black">Více...</button></Link>
             </div>
           </div>
         </div>
