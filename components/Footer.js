@@ -6,7 +6,8 @@ export default function Footer() {
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
           <div>
             <h3 className="text-lg font-semibold">Nakolo.pokus</h3>
-            <p className="text-sm">© {new Date().getFullYear()} Všechna práva vyhrazena</p>
+            <p className="text-sm">© {new Date().getFullYear()} Všechna práva vyhrazena
+                                                                <br/>(Tato stránka není oficiální)</p>
           </div>
           <nav className="flex space-x-4">
             <a href="#" className="hover:underline">O nás</a>
