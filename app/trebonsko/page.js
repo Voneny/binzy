@@ -3,6 +3,7 @@
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Card from '@/components/Card';
+import Image from 'next/image';
 
 export default function trebonsko() {
  return(
@@ -35,9 +36,9 @@ export default function trebonsko() {
           <br/><br/>Všechny cyklistické trasy jsou výborně značeny, a to jak na mapách, tak i v terénu. Na tyto trasy plynule navazují i další směr Novohradsko nebo Slavonicko.</p>
           </div>
           <div className='sm:w-1/2 flex-1 justify-start items-stretch'>
-            <img src='https://www.nebeske.cz/wp-content/uploads/2024/04/1710JJ_Trebonsko_Luznice_0152.jpg' alt='chlumská rybniční soustava' className='w-full mt-4 rounded-lg shadow-lg'/>
-            <img src='https://www.ceska-krajina.cz/wp-content/uploads/2023/01/ceska-krajina-orel-morsky-ptak-dravec-operenec-zobak-peri-modra-obloha.jpg' alt='orel mořský' className='w-full mt-4 rounded-lg shadow-lg'/>
-            <img src='https://majdalena.cz/wp-content/uploads/2019/11/Stara-reka-slepe-rameno.jpg' alt='Stará řeka' className='w-full mt-4 rounded-lg shadow-lg'/>
+            <Image height={400} width={500} src='/trebonsko-luznice.jpg' alt='chlumská rybniční soustava' className='w-full mt-4 rounded-lg shadow-lg'/>
+            <Image height={400} width={500} src='/ceska-krajina-orel-morsky-ptak.jpg' alt='orel mořský' className='w-full mt-4 rounded-lg shadow-lg'/>
+            <Image height={400} width={500} src='/Stara-reka-slepe-rameno.jpg' alt='Stará řeka' className='w-full mt-4 rounded-lg shadow-lg'/>
 
           </div>
         </main>

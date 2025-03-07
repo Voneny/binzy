@@ -16,14 +16,14 @@ export default function kola() {
   <table className="table">
     {/* head */}
     <thead>
-      <tr>
+      <tr className='text-black'>
         <th></th>
-        <th className='text-primary-content text-xl'>leden - únor</th>
-        <th className='text-primary-content text-xl'>březen, listopad</th>
-        <th className='text-primary-content text-xl'>duben - červen, září</th>
-        <th className='text-primary-content text-xl'>červenec - srpen</th>
-        <th className='text-primary-content text-xl'>říjen</th>
-        <th className='text-primary-content text-xl'>prosinec</th>
+        <th className='text-xl'>leden - únor</th>
+        <th className='text-xl'>březen, listopad</th>
+        <th className='text-xl'>duben - červen, září</th>
+        <th className='text-xl'>červenec - srpen</th>
+        <th className='text-xl'>říjen</th>
+        <th className='text-xl'>prosinec</th>
       </tr>
     </thead>
     <tbody>
